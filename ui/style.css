@@ -1,5 +1,5 @@
 .background { 
-    background-image: url(cover.jpg); 
+    background-image: url(/ui/cover.jpg); 
     height: 95vh; 
     background-size: cover; 
     display: flex; 
