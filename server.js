@@ -90,7 +90,7 @@ app.get('/login/logo.png', function (req, res) {
 });
 
 app.get('/signup/signup.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'siignup', 'signup.css'));
+  res.sendFile(path.join(__dirname, 'signup', 'signup.css'));
 });
 
 app.get('/signup/signup.html', function (req, res) {
