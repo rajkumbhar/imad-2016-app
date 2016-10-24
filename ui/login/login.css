@@ -1,0 +1,221 @@
+.pane{
+    width: 800px;
+    height: 500px;
+    background-color:white;
+   	border-radius:20px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    outline: none;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.titlediv{
+
+    width: 800px;
+    height: 100px;
+    background-color:#ffc266;
+}
+
+.background {
+    background-image: url(loginbg1.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: centre;
+    text-align: center;
+    color: black;
+    height: 802px;
+    margin: -10px;
+    display: flex;
+}
+
+.email {
+	 background-color:#f2f2f2;
+	 -moz-border-radius:28px;
+	border-radius:28px;
+    border:1px solid #cccccc;
+	 font-family:Arial;
+    font-size:17px;
+    position: absolute;
+    display: inline-block;
+	color:black;
+	padding:10px ;
+    width: 250px;
+    outline: none;
+	top: 180px;
+    left: 500px;
+	}
+
+.pwd {
+	 background-color:#f2f2f2;
+	 -moz-border-radius:28px;
+	border-radius:28px;
+    border:1px solid #cccccc;
+	 font-family:Arial;
+    font-size:17px;
+    position: absolute;
+    display: inline-block;
+    outline: none;
+	color:black;
+	padding:10px ;
+    width: 250px;
+	top: 240px;
+    left: 500px;
+	}
+
+.myButton {
+    background: white;
+    -moz-border-radius:28px;
+    border-radius:28px;
+    border:1px solid black;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:17px;
+    position: absolute;
+    outline: none;
+    display: inline-block;
+    padding:10px ;
+    width: 250px;
+    top: 300px;
+    left: 500px;
+}
+
+.myButton
+{
+}
+
+.myButton:hover
+{
+    background-color: #ffc266;
+    color: white;
+}
+
+.fb {
+    background: white;
+    -moz-border-radius:28px;
+    border-radius:28px;
+    border:1px solid white;
+    display:inline-block;
+    cursor:pointer;
+    color:white;
+    font-family:Arial;
+    outline: none;
+    font-size:17px;
+    position: absolute;
+    display: inline-block;
+    padding:10px ;
+    width: 350px;
+    top: 180px;
+    left: 80px;
+}
+
+.fb
+{ color: black;
+    border: 1px solid black;
+}
+
+.fb:hover
+{
+    background-color: #ffc266;
+    color: white;
+}
+
+.google {
+    background: white;
+    -moz-border-radius:28px;
+    border-radius:28px;
+    border:1px solid white;
+    display:inline-block;
+    cursor:pointer;
+    color:white;
+    outline: none;
+    font-family:Arial;
+    font-size:17px;
+    position: absolute;
+    display: inline-block;
+    padding:10px ;
+    width: 350px;
+    top: 240px;
+    left: 80px;
+}
+
+.google
+{ color: black;
+    border: 1px solid black;
+}
+
+.google:hover
+{
+    background-color: #ffc266;
+    color: white;
+}
+
+.linkedin {
+    background: white;
+    -moz-border-radius:28px;
+    border-radius:28px;
+    border:1px solid white;
+    display:inline-block;
+    cursor:pointer;
+    outline: none;
+    color:white;
+    font-family:Arial;
+    font-size:17px;
+    position: absolute;
+    display: inline-block;
+    padding:10px ;
+    width: 350px;
+    top: 300px;
+    left: 80px;
+}
+
+.linkedin
+{ color: black;
+    border: 1px solid black;
+}
+
+.linkedin:hover
+{
+    background-color: #ffc266;
+    color: white;
+}
+
+.signup {
+    background: white;
+    -moz-border-radius:28px;
+    border-radius:28px;
+    border:1px solid white;
+    display:inline-block;
+    cursor:pointer;
+    color:white;
+    font-family:Arial;
+    outline: none;
+    font-size:17px;
+    position: absolute;
+    display: inline-block;
+    padding:10px ;
+    width: 350px;
+    top: 420px;
+    left: 220px;
+}
+
+.signup
+{ color: black;
+    border: 1px solid black;
+}
+
+.signup:hover
+{
+    background-color: #ffc266;
+    color: white;
+}
+
+.logoa
+{
+  position: relative;
+  height: 100px;
+}
