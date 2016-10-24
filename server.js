@@ -53,23 +53,23 @@ app.get('/ui/3d.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '3d.png'));
 });
 
-app.get('/ui/1.png', function (req, res) {
+app.get('/ui/1.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '1.jpg'));
 });
 
-app.get('/ui/2.png', function (req, res) {
+app.get('/ui/2.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '2.jpg'));
 });
 
-app.get('/ui/3.png', function (req, res) {
+app.get('/ui/3.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '3.jpg'));
 });
 
-app.get('/ui/4.png', function (req, res) {
+app.get('/ui/4.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '4.jpg'));
 });
 
-app.get('/ui/5.png', function (req, res) {
+app.get('/ui/5.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '5.jpg'));
 });
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
