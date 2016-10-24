@@ -98,7 +98,7 @@ app.get('/signup/signup.html', function (req, res) {
 });
 
 app.get('/signup/loginbg.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'login', 'loginbg.jpg'));
+  res.sendFile(path.join(__dirname, 'signup', 'loginbg.jpg'));
 });
 
 app.get('/signup/logo.png', function (req, res) {
