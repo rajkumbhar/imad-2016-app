@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+  <title>
+    Kickresume: Create beautiful resume and cover letter in minutes
+  </title>
+  <link rel="stylesheet" type="text/css" href="login.css">
+  </head>
+<body>
+<div class="background">
+<div class="pane">
+<div class="titlediv">
+<a href="http://localhost/wtl/index.html"><div class="logoa"><img src="logo.png" height="100px;" ></img></div></a>
+</div>
+<br>
+<font face="times new roman" color="#a6a6a6" size="6px">Login to your account</font>
+<br><br>
+
+
+
+<form action="login.php" method="POST">
+<input type="email" placeholder="E-mail" class="email" name="email">
+<br><br>
+<input type="password" placeholder="Password" class="pwd" name="password">
+<br><br>
+    <div id="check">    
+<input type="submit" value="Submit" class="myButton">
+    </div>
+    </form>
+<button class="fb">LOG IN WITH FACEBOOK</button>
+<br><br>
+<button class="google">LOG IN WITH GOOGLE</button>
+<br><br>
+<button class="linkedin">LOG IN LINKEDIN</button>
+<br><br><br>
+<font face="times new roman" color="#a6a6a6" size="5px">Dont have an account? </font>
+<a href="http://localhost/wtl/signup/signup.html"><button class="signup">SIGNUP</button></a>
+
+
+
+</div>
+</div>
+    <div id="div">
+    </div>
+
+<script>
+    function check(){
+    var num=document.getElementById('password').value;
+        var x=new XMLHttpRequest();
+        x.onreadystatechange=function()
+        
+{   if(x.readyState==4)
+    {
+            var res=x.responseText;
+        document.getElementById('div').innerHTML=res;
+        document.getElementById('check').innerHTML="";
+        
+            
+        }
+    
+    
+}
+        x.open("GET","check.php?no="+num,true);
+        x.send();
+    }
+    </script>
+    
+</body>
+  </html>
