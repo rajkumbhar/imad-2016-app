@@ -1,6 +1,6 @@
 <?php
-$con=mysqli_connect('localhost','raj','raj');
-mysqli_select_db($con,'makeresume');
+$con=mysqli_connect('localhost:5432','rajkumbhar','db-rajkumbhar-41878');
+mysqli_select_db($con,'rajkumbhar');
 $name=$_REQUEST['name'];
 $email=$_REQUEST['email'];
 $password=$_REQUEST['password'];
