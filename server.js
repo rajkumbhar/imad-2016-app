@@ -37,8 +37,8 @@ app.get('/ui/amazon.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'amazon.png'));
 });
 
-app.get('/ui/us.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'us.png'));
+app.get('/ui/p&g.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'p&g.png'));
 });
 
 app.get('/ui/paypal.png', function (req, res) {
