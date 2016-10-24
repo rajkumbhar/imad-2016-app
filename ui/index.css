@@ -1,0 +1,312 @@
+.background {
+    background-image: url(cover.jpg);
+    height: 120vh;
+    background-size:cover;
+    display: flex;
+    background-attachment: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: centre;
+    text-align: center;
+    height: 730px;
+    margin:-10px;
+}
+.myButton {
+    background: transparent;
+    border-radius:28px;
+    border:1px solid white;
+    display:inline-block;
+    cursor:pointer;
+    color:white;
+    font-family:Arial;
+    font-size:17px;
+    position: absolute;
+    padding:6px ;
+    width: 110px;
+    top: 50px;
+    outline: none;
+    left: 50px;
+}
+.myButton
+{ color: #0088cc;
+    border: 2px solid #0088cc;
+}
+.myButton:hover
+{
+    background-color: #008CBA;
+    color: white;
+}
+.myButton:focus
+{
+  outline: none;
+}
+
+#signup
+{
+    left: 1070px;
+    width: 200px;
+    top: 30px;
+}
+
+#login
+{
+    left: 950px;
+    top: 30px;
+}
+
+.button1 {
+  display: inline-block;
+  border-radius: 40px;
+  background-color: #0099ff;
+  border: none;
+  color: #FFFFFF;
+  font-size: 28px;
+  padding:  10px;
+  width: 300px;
+  transition: all 0.5s;
+  outline: none;
+  cursor: pointer;
+  margin: 5px;
+  right: 1100px;
+  margin-top: -80px;
+
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content:'>>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -100px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 50px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button2 {
+  display: inline-block;
+  border-radius: 40px;
+  background-color: white;
+  border: none;
+  color: #0099ff;
+  font-size: 28px;
+  outline: none;
+  padding:  10px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  right: 1100px;
+  margin-top: -80px;
+
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content:'>>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -100px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 50px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.h2
+{
+    font-family: fantasy;
+    font-size: 22px;
+    color: steelblue;
+    font-stretch: ultra-expanded;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -180px;
+}
+
+.image
+{
+    margin-top: px;
+}
+#tagline-one-home
+{
+    text-align: center;
+    align-items: center;
+    font-family: ubuntu;
+    font-size: 100px;
+    font-size: 25px;
+    margin-top: 40px;
+}
+#tagline-two-blue
+{
+    text-align: center;
+    font-family: JosefinSans-Italic;
+    font-size: 40px;
+    margin-top: auo;
+    color:white;
+}
+.sectionBlue
+{
+  margin-top: 20px;
+  background: #0088cc;
+  /*background: linear-gradient(135deg, #463cc2 0, #0e91f7 80%);*/
+  height: 627px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.resume1
+{
+  margin-top: -496px;
+  margin-left: 700px;
+}
+.resume0
+{
+  margin-top: 51px;
+  margin-left: 80px;
+}
+.tagline-website
+{
+  text-align: center;
+  font-family: ubuntu;
+  font-size: 30px;
+  margin-top: 100px;;
+  color: black ;
+}
+/*css automatic sliding*/
+#container
+{
+    float: left;
+    width: 1262px;
+    height: 550px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 10px;
+    overflow-x: hidden;
+    background: white;
+    margin-left: -8px;
+}
+
+#container > div
+{
+    width: 500px;
+    height: 100px;
+    white-space: nowrap;
+    animation: slide infinite 20s linear;
+}
+
+#container:hover > div
+{
+    animation-play-state: paused;
+}
+
+#container > div > div
+{
+    display: inline-block;
+    width: 0px;
+    height: 500px;
+    margin-right: 800px;
+    background: #dddddd;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0px;
+  }
+  14% {
+    margin-left: -300px;
+  }
+  28% {
+    margin-left: -600px;
+  }
+  42% {
+    margin-left: -900px;
+  }
+  56% {
+    margin-left: -1200px;
+  }
+  70% {
+    margin-left: -1500px;
+  }
+  84% {
+    margin-left: -1800px;
+  }
+
+}
+/*red background*/
+.sectionRed
+{
+  background: #463cc2;
+  background: -moz-linear-gradient(-45deg, #463cc2 0, #0e91f7 80%);
+  background: -webkit-linear-gradient(-45deg, #463cc2 0, #0e91f7 80%);
+  background: linear-gradient(135deg, #463cc2 0, #0e91f7 80%);
+margin-top: -90px;
+height: 980px;
+margin-left: -10px;
+margin-right: -10px;
+}
+.tagline-help
+{
+  text-align: center;
+  font-family: ubuntu;
+  font-size: 40px;
+  margin-top: 110px;
+  color:white;
+  text-align: center;;
+}
+#signup-white
+{
+  margin-top: 80px;
+}
+
+
+/*footer*/
+.gray-footer
+{
+  background-color: #262626;
+  height: 440px;
+  margin-top: 100px;
+}
+.footer-text
+{
+  color: white;
+  font-size: 20px;
+  text-shadow: white;
+  text-align:center;
+  bottom: 100px;
+  font-family: ubuntu;
+}
+.logo
+{
+  position: absolute;
+  left: 450px;
+  top: 30px;
+}
