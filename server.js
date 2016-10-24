@@ -25,8 +25,8 @@ app.get('/ui/logo.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'logo.png'));
 });
 
-app.get('/ui/logo/adidas.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'logo/adidas.png'));
+app.get('/ui/adidas.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'adidas.png'));
 });
 
 
