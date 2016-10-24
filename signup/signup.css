@@ -20,7 +20,7 @@
 }
 
 .background {
-    background-image: url(loginbg.jpg);
+    background-image: url(/signup/loginbg.jpg);
     height: 95vh;
     background-size: cover;
     flex-direction: column;
