@@ -19,7 +19,7 @@
 }
 
 .background {
-    background-image: url(loginbg1.jpg);
+    background-image: url(/login/loginbg1.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
