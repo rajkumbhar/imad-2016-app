@@ -1,6 +1,7 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
+var pool = require('pg').pool;
 
 var app = express();
 app.use(morgan('combined'));
@@ -8,6 +9,11 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
+
+app.get('/test-db',function (req, res){
+    // make a select request 
+    // create a responce with the result
+})
 
 app.get('/ui/index.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.css'));
